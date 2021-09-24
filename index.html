@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>
+                TODO LIST
+            </h1>
+            <form class="main-form">
+                <div class="main-form-group">
+                    <input id="mainInput" class="main-input" type="text" placeholder="Enter a task">
+                    <small id="feedback" class="feedback hide">Please enter a task</small>
+                </div>
+                <button id="submitButton" type="submit" class="btn btn-blue">Submit</button>
+            </form>
+        </div>
+        <div class="buttons-div">
+            <div class="list-buttons">
+                <button id="todoListButton" class='btn btn-white'>Todo List</button>
+            </div>
+            <div class="list-buttons">
+                <button id="doneListButton" class='btn btn-black'>Done List</button>
+            </div>
+        </div>
+        <div class="job-list-container">
+            <div id="todoDiv" class="todo-div">
+                <h2>
+                    Todo List
+                </h2>
+                <hr>
+            </div>
+            <div id="doneDiv" class="done-div">
+                <h2>
+                    Done List
+                </h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
